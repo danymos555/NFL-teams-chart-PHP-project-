@@ -1,0 +1,167 @@
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Fondo gris claro */
+    color: #333; /* Texto negro */
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+
+h2 {
+    color: #4b754f;
+    text-align: left; /* Verde oscuro */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus preferencias */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+span {
+    margin-right: 10px; /* Ajusta el espacio entre el número y el texto */
+}
+
+header {
+    background-color: #4b754f; /* Verde oscuro */
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Centra horizontalmente los elementos dentro del encabezado */
+}
+
+.logo {
+    width: 40px; /* Ajusta el ancho de la imagen según tus necesidades */
+    margin-right: 10px; /* Ajusta el espacio entre la imagen y el título */
+}
+
+h1 {
+    color: #ffffff; /* Texto blanco */
+    margin: 0; /* Elimina el margen superior e inferior */
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+nav {
+    margin-top: 10px; /* Ajusta el espacio entre el título y la barra de navegación */
+    margin-left: 60px;
+    text-align: left; /* Centra los elementos a la izquierda dentro de la barra de navegación */
+}
+
+.navbar-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-li {
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+}
+
+.navbar-a {
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar-a:hover {
+    text-decoration: underline; /* Subraya en el hover */
+}
+
+/* Estilos específicos para el botón "Agregar Nuevo Equipo" */
+.agregar-equipo-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4b754f; /* Verde oscuro */
+    color: #fff; /* Texto blanco */
+    border: 2px solid #fff; /* Borde blanco */
+    border-radius: 25px; /* Esquinas redondeadas */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.agregar-equipo-button:hover {
+    background-color: #fff; /* Cambia a blanco al pasar el mouse */
+    color: #ff7eb9; /* Texto rosa suave al pasar el mouse */
+    border-color: #fff; /* Borde blanco al pasar el mouse */
+}
+
+.jugadores-link {
+    color: #4b754f; /* Color del fondo del header */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave del color */
+}
+
+.jugadores-link:hover {
+    color: blue; /* Cambia a blanco al pasar el mouse */
+}
+
+
+
+
+/* Estilos específicos para el formulario de agregar nuevo equipo */
+.formulario-equipo {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.formulario-equipo h2 {
+    color: #4b754f; /* Verde oscuro */
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+.formulario-equipo label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Texto negro */
+}
+
+.formulario-equipo input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px;
+}
+
+.formulario-equipo input[type="submit"] {
+    background-color: #4b754f; /* Verde oscuro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formulario-equipo input[type="submit"]:hover {
+    background-color: #357238; /* Verde oscuro más oscuro al pasar el mouse */
+}
+
+.seleccionado {
+    font-weight: bold; /* O cualquier estilo adicional que desees para resaltar */
+}
